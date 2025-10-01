@@ -38,7 +38,7 @@ const FarmReg = () => {
       const tx = new TransactionBlock();
       
       // Use your actual package ID from the transaction
-      const PACKAGE_ID = "0xdfdc1ba673e98f69704abbaac6377baa577b1c51b1f34809f9d573771267a6d3";
+      const PACKAGE_ID = "0x41e975ca7771b632faa3d653fe436ffc632170f4de70554182fd9ccf7727f370";
       
       tx.moveCall({
         target: `${PACKAGE_ID}::farm::create_farm`,
