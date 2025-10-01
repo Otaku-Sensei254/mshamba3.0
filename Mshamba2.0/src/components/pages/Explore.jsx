@@ -27,7 +27,7 @@ const Explore = ({ onNavigate }) => {
       image: '/farm1.jpg',
       description: 'Organic farm specializing in tomatoes, kale, and strawberries using sustainable farming practices.',
       roi: '15%',
-      farmObjectId: '0x9b1ee13ebcf5b21e55fe41446ca19f3d40964f8536dca6b94b0cbb269e82176c'
+      farmObjectId: '0x41e975ca7771b632faa3d653fe436ffc632170f4de70554182fd9ccf7727f370'
     },
     {
       id: '2',
@@ -232,7 +232,7 @@ const Explore = ({ onNavigate }) => {
     try {
       // REAL TRANSACTION - Investment
       const tx = new TransactionBlock();
-      const PACKAGE_ID = "0xdfdc1ba673e98f69704abbaac6377baa577b1c51b1f34809f9d573771267a6d3";
+      const PACKAGE_ID = "0x41e975ca7771b632faa3d653fe436ffc632170f4de70554182fd9ccf7727f370";
       
       // Convert SUI to MIST (1 SUI = 1,000,000,000 MIST)
       const amountMist = Math.floor(investmentAmount * 1000000000);
