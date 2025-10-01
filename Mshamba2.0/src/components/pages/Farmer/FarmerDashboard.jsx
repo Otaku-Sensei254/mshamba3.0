@@ -58,7 +58,7 @@ const FarmerDashboard = () => {
     try {
       // Real transaction to launch investment
       const tx = new TransactionBlock();
-      const PACKAGE_ID = "0xdfdc1ba673e98f69704abbaac6377baa577b1c51b1f34809f9d573771267a6d3";
+      const PACKAGE_ID = "0x41e975ca7771b632faa3d653fe436ffc632170f4de70554182fd9ccf7727f370";
       
       // You would need the actual farm object ID here
       const farmObjectId = farm?.farmObjectId || "0xYOUR_FARM_OBJECT_ID";
@@ -105,7 +105,7 @@ const FarmerDashboard = () => {
     try {
       // Real transaction to add profit
       const tx = new TransactionBlock();
-      const PACKAGE_ID = "0xdfdc1ba673e98f69704abbaac6377baa577b1c51b1f34809f9d573771267a6d3";
+      const PACKAGE_ID = "0x41e975ca7771b632faa3d653fe436ffc632170f4de70554182fd9ccf7727f370";
       
       const farmObjectId = farm?.farmObjectId || "0xYOUR_FARM_OBJECT_ID";
       const amountMist = Math.floor(profitAmount * 1000000000);
@@ -163,7 +163,7 @@ const FarmerDashboard = () => {
     try {
       // Real transaction to distribute profits
       const tx = new TransactionBlock();
-      const PACKAGE_ID = "0xdfdc1ba673e98f69704abbaac6377baa577b1c51b1f34809f9d573771267a6d3";
+      const PACKAGE_ID = "0x41e975ca7771b632faa3d653fe436ffc632170f4de70554182fd9ccf7727f370";
       
       const farmObjectId = farm?.farmObjectId || "0xYOUR_FARM_OBJECT_ID";
       
